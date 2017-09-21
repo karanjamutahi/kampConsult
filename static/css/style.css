@@ -10,4 +10,30 @@ nav#topNav{
     background: transparent;
     position: fixed;
     background-color: rgba(0, 0, 0, 0) !important;
+    z-index: 100;
 }
+
+div.card#service-card.small{
+    height: 320px;
+}
+
+.teal-text{
+    color: #1de9b6 !important;
+}
+div#greyedout{
+    background-color: #424B54 !important;
+}
+
+.dark-teal-text{
+    color: #0F7173 !important;
+}
+
+.col.l6 .card-image{
+    max-height: 200px;   
+}
+
+.card-large .card-image+.card-content#aboutcard{
+    max-height: 100%;
+    z-index: 90;
+}
+
