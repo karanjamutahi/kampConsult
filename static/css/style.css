@@ -32,8 +32,16 @@ div#greyedout{
     max-height: 200px;   
 }
 
-.card-large .card-image+.card-content#aboutcard{
-    max-height: 100%;
-    z-index: 90;
+.card.large .card-image+.card-content#aboutcard{
+    max-height: 100%; 
 }
 
+a#careerbtn{
+    margin:auto;
+}
+
+.fa{
+    padding-top: 10px;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
