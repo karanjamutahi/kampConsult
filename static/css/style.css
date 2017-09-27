@@ -6,6 +6,11 @@
     width:100%;
 }
 
+.top{
+  -webkit-filter: blur(200px);
+  -webkit-transform: translate3d(0,0,0);  
+}
+
 nav#topNav{
     background: transparent;
     position: fixed;
@@ -20,7 +25,7 @@ div.card#service-card.small{
 .teal-text{
     color: #1de9b6 !important;
 }
-div#greyedout{
+div.greyedout{
     background-color: #424B54 !important;
 }
 
@@ -45,3 +50,5 @@ a#careerbtn{
     font-size: 30px;
     padding-bottom: 15px;
 }
+
+
