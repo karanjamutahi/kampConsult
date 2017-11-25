@@ -4,19 +4,29 @@
 
 #image1{
     width:100%;
-  -webkit-filter: blur(4px);
+  /* -webkit-filter: blur(4px);
   -webkit-transform: translate3d(0,0,0);
+*/
 }
 
+p.carousel-text{
+    padding: 25px;
+    font-size: 100px;
+}
+
+.carousel-item h1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+}
 
 nav#topNav{
-    background: transparent;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0) !important;
+    
     z-index: 100;
 }
-
-div.card#service-card.small{
+ 
+div.card.small{
     height: 320px;
 }
 
@@ -49,4 +59,19 @@ a#careerbtn{
     padding-bottom: 15px;
 }
 
+.teal-gradient{
+    background: -webkit-linear-gradient(117deg, rgba(122,255,189,1) 11%, rgba(122,255,189,1) 17%, rgba(94,225,175,1) 36%, rgba(0,128,128,1) 100%) !important;
+}
 
+.invisible{
+    background: transparent !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+@media only screen and (max-width:400px){
+nav .brand-logo{
+    left: 1%;
+    transform: translateX(0);
+    webkit-transform: translateX(0);
+}
+}
