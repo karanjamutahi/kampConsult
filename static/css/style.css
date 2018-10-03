@@ -22,16 +22,38 @@ p.carousel-text{
 
 nav#topNav{
     position: fixed;
-    
+    top:0;
     z-index: 100;
 }
  
 div.card.small{
-    height: 320px;
+    height: 200px;
+}
+
+div#intro{
+    background:linear-gradient(90deg, rgba(0,15,36,0.7952586206896551) 0%, rgba(9,121,120,0.7629310344827587) 35%, rgba(0,204,128,0.8060344827586207) 100%),
+    url('../images/jpgedit.jpg') repeat;
+    width: 100%;
+    min-height: 750px;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+h1#intro-text{
+    padding-top: 0px;
+    margin-top: 0px;
+    top: 290px;
+    position: relative;
 }
 
 .teal-text{
     color: #1de9b6 !important;
+}
+
+.fancy-gradient{
+    background:-webkit-linear-gradient(90deg, rgba(0,15,36,0.7952586206896551) 0%, rgba(9,121,120,0.7629310344827587) 35%, rgba(0,204,128,0.8060344827586207) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 div.greyedout{
     background-color: #424B54 !important;
@@ -53,6 +75,11 @@ a#careerbtn{
     margin:auto;
 }
 
+div#rate-circle{
+    width:300px;
+    height:300px;
+}
+
 .fa{
     padding-top: 10px;
     font-size: 30px;
@@ -60,7 +87,13 @@ a#careerbtn{
 }
 
 .teal-gradient{
-    background: -webkit-linear-gradient(117deg, rgba(122,255,189,1) 11%, rgba(122,255,189,1) 17%, rgba(94,225,175,1) 36%, rgba(0,128,128,1) 100%) !important;
+    background:linear-gradient(90deg, rgba(0,15,36,0.7952586206896551) 0%, rgba(9,121,120,0.7629310344827587) 35%, rgba(0,204,128,0.8060344827586207) 100%);
+    background-attachment: fixed;
+}
+
+.teal-gradient-1{
+    background-image: linear-gradient( 114.3deg,  rgba(49,75,90,1) 48.8%, rgba(3,155,193,1) 94.9% );
+    background-attachment: fixed;
 }
 
 .invisible{
