@@ -92,6 +92,7 @@ a#careerbtn{
 div#rate-circle{
     width:300px;
     height:300px;
+    margin-bottom: 10px;
 }
 
 .fa{
@@ -100,13 +101,15 @@ div#rate-circle{
     padding-bottom: 15px;
 }
 
+iframe{
+    overflow-x: scroll;
+    height: 450px;
+    width: 450px;
+    position: relative;
+} 
+
 .teal-gradient{
     background:linear-gradient(90deg, rgba(0,15,36,0.7952586206896551) 0%, rgba(9,121,120,0.7629310344827587) 35%, rgba(0,204,128,0.8060344827586207) 100%);
-    background-attachment: fixed;
-}
-
-.teal-gradient-1{
-    background-image: linear-gradient( 114.3deg,  rgba(49,75,90,1) 48.8%, rgba(3,155,193,1) 94.9% );
     background-attachment: fixed;
 }
 
@@ -122,9 +125,21 @@ img#insurance{
 }
 
 @media only screen and (max-width:400px){
-nav .brand-logo{
-    left: 1%;
-    transform: translateX(0);
-    webkit-transform: translateX(0);
-}
+    nav .brand-logo{
+        left: 1%;
+        transform: translateX(0);
+        webkit-transform: translateX(0);
+    }
+
+    iframe{
+        overflow-x: scroll;
+        width: 300px;
+        height: 300px;
+    }
+
+    div#rate-circle{
+        width:300px;
+        height:300px;
+        margin-bottom: 10px;
+    }
 }
