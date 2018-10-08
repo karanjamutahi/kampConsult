@@ -9,6 +9,20 @@
 */
 }
 
+@font-face{
+    font-family: 'K2D', sans-serif;
+    src: url('../fonts/K2D/K2D-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Raleway', sans-serif;
+    src: url('../fonts/Raleway/Raleway-Regular.ttf')
+}
+
+h1{
+    font-family: 'K2D', sans-serif;
+}
+
 p.carousel-text{
     padding: 25px;
     font-size: 100px;
@@ -99,6 +113,12 @@ div#rate-circle{
 .invisible{
     background: transparent !important;
     background-color: rgba(0, 0, 0, 0) !important;
+}
+
+img#insurance{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    margin: 0 auto;
 }
 
 @media only screen and (max-width:400px){
